@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "BHoSGrH/siOrWOQQD+JIXaWaVtAqx4ZqhAKsNJohrgU=",
+  "Source": "EM.API",
+  "BasePath": "_content/EM.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

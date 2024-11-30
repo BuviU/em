@@ -1,0 +1,95 @@
+.pontano-sans-pons {
+    font-family: "Pontano Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .montserrat-mo {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+h1,h2,h3,h4,h5{
+    font-family: "Pontano Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #865f3e;
+}
+
+body, p{
+    font-family: "Pontano Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    box-sizing: border-box;
+    background: #e4ebf5;
+  }
+
+  /*  ICONS  */
+.icon {
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    display: flex;
+    justify-content: space-between;
+    
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      box-shadow: .3rem .3rem .6rem #c8d0e7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+      cursor: pointer;
+      color: #d09f5e;
+      transition: all .5s ease;
+
+    
+  }
+
+.cd {
+    width: 100%;
+    height: auto;
+    border-radius: 3rem;
+    box-shadow: 0.8rem 0.8rem 1.4rem #c8d0e7,
+      -0.2rem -0.2rem 1.8rem #fff;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 17.6rem 19rem 20.4rem;
+    grid-template-rows: repeat(autofit, min-content);
+    grid-column-gap: 5rem;
+    grid-row-gap: 2.5rem;
+    align-items: center;
+    object-fit: cover;
+    
+
+}
+
+.cd-img {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    box-shadow: 0.8rem 0.8rem 1.4rem #c8d0e7,
+      -0.2rem -0.2rem 1.8rem #fff;
+    align-items: center;
+    object-fit: cover;
+    
+
+
+
+
+
+}    
+
+.btn-primary{
+    background-color: #d09f5e;
+    border-color: #d09f5e;
+}
+      

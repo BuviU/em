@@ -1,0 +1,30 @@
+<div class="em-table">
+  <h5 class="pb-3 pt-3">Welcome to the Employee Management Dashboard!</h5>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Salary</th>
+        <th>Department</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let employee of employees()">
+        <td>{{ employee.id }}</td>
+        <td>{{ employee.name }}</td>
+        <td>{{ employee.email }}</td>
+        <td>{{ employee.phone }}</td>
+        <td>{{ employee.salary }}</td>
+        <td>{{ employee.department }}</td>
+        <td>
+          <button (click)="deleteEmployee(employee.id)">View</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
